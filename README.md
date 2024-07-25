@@ -52,7 +52,7 @@ This project demonstrates how to:
 
 1. **Run the Flask API server in the background of your Notebook in colab:**
     ```bash
-  !ssh -R 80:localhost:5003 serveo.net  
+    ssh -R 80:localhost:5003 serveo.net  
     ```
 
 2. **Run the Chainlit application:**
